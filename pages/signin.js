@@ -90,6 +90,7 @@ const SignIn = () => {
             <Image
               className="absolute ml-[25px]  mt-[95px]"
               src="/images/hb-full-logo.png"
+              alt=""
             />
             <h1 className=" absolute mt-[145px] ml-[25px] text-2xl text-white  [font-weight:500]">
               Welcome
@@ -111,7 +112,7 @@ const SignIn = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full  rounded-t-[35px] mt-[270px]  bg-white ">
+          <div className="absolute w-full h-full rounded-t-[35px] mt-[270px]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%]  h-[3rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
