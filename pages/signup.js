@@ -252,10 +252,10 @@ const Signup = () => {
                 Or quick continue with
               </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
