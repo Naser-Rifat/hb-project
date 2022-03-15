@@ -212,7 +212,7 @@ const Signup = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full  rounded-t-[35px] mt-[15.7rem]  bg-white ">
+          <div className="absolute w-full h-full  rounded-t-[35px] mt-[15.7rem]  bg-white ">
             <form className="mt-[1.8em]  text-center">
               <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.2rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-base  text-gray-500 ml-[1rem]" />
@@ -235,7 +235,7 @@ const Signup = () => {
                   className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]    focus:outline-none"
                 />
               </div>
-              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  text-xl h-[3.2rem] mx-auto rounded-full">
+              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem] h-[3.2rem] mx-auto rounded-full">
                 <VscReferences className=" text-gray-500 text-base  ml-[1rem] " />
                 <input
                   placeholder="Refer code (Optional)"
