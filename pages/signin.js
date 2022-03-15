@@ -142,11 +142,11 @@ const SignIn = () => {
               </div>
 
               <button className="w-[65%] h-[4rem] rounded-full text-xl  mb-3  bg-[#406CDA] text-white">
-                Sign Up
+                Log In
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-3 font-medium text-[1.1em]">
+              <p className="mb-3 font-medium text-[1.1em] mt-[2em]">
                 Or quick continue with
               </p>
               <div className="flex justify-center items-center mb-2">
@@ -160,11 +160,9 @@ const SignIn = () => {
               <div className="flex justify-center items-center w-[80%] mx-auto mb-5 ">
                 {/* <MdCheckBoxOutlineBlank/> */}
 
-                <p className="text-[1em]">
-                  <MdCheckBox className="mb-1 inline mr-1" />
-                  By signing up you accept our Terms & Conditions and Privacy
-                  Policy
-                </p>
+                <button className="text-[1em] mt-[2em]">
+                  Continue without login
+                </button>
               </div>
             </div>
           </div>
