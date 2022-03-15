@@ -177,7 +177,7 @@ const Signup = () => {
             <svg
               width="40"
               height="40"
-              className="absolute ml-[25px] mt-[95px]"
+              className="absolute ml-[25px] mt-[5em]"
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -187,10 +187,10 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[145px] ml-[25px] text-3xl text-white  [font-weight:500]">
+            <h1 className=" absolute mt-[4.5em] ml-[25px] text-3xl text-white  [font-weight:400]">
               Sign Up
             </h1>
-            <p className=" absolute mt-[11em] w-[75%]  ml-[25px] text-lg text-white  ">
+            <p className=" absolute mt-[11em] w-[80%]  ml-[25px] text-lg text-white  ">
               Sign Up to Healthbondu and amazing thing near around you
             </p>
 
@@ -213,37 +213,37 @@ const Signup = () => {
 
           <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
             <form className="mt-[2rem]  text-center">
-              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] text-xl h-[4rem] mx-auto rounded-full">
-                <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
+              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem]  h-[4rem] mx-auto rounded-full">
+                <HiOutlineDeviceMobile className=" text-base  text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1em]  bg-transparent   focus:outline-none"
+                  className=" w-[80%] h-[95%] ml-[1em] text-base  bg-transparent   focus:outline-none"
                 />
               </div>
-              <div className="w-[90%] flex  justify-center items-center bg-gray-100 mb-[1rem] text-xl h-[4rem] mx-auto rounded-full">
-                <BiUser className=" text-gray-500 ml-[1em]" />
+              <div className="w-[90%] flex  justify-center items-center  bg-gray-100 mb-[1rem]  h-[4rem] mx-auto rounded-full">
+                <BiUser className=" text-gray-500 text-base  ml-[1em]" />
                 <input
                   placeholder="Full Name"
-                  className=" w-[80%] h-[95%] ml-[1em]  bg-transparent focus:outline-none"
+                  className=" w-[80%]  ml-[1em] text-base  bg-transparent focus:outline-none"
                 />
               </div>
-              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem]  text-xl h-[4rem] mx-auto rounded-full">
-                <RiLockPasswordLine className=" text-gray-500 ml-[1em]" />
+              <div className="w-[90%] flex justify-center  items-center bg-gray-100 mb-[1rem]   h-[4rem] mx-auto rounded-full">
+                <RiLockPasswordLine className=" text-gray-500 text-base ml-[1em] " />
                 <input
                   placeholder="Password"
                   type="number"
-                  className="w-[80%] h-[95%] ml-[1em] bg-transparent     focus:outline-none"
+                  className="w-[80%]  ml-[1em] bg-transparent text-base    focus:outline-none"
                 />
               </div>
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem]  text-xl h-[4rem] mx-auto rounded-full">
-                <VscReferences className=" text-gray-500 ml-[1em]" />
+                <VscReferences className=" text-gray-500 text-base  ml-[1em] " />
                 <input
                   placeholder="Refer code (Optional)"
-                  className="w-[80%] h-[95%] ml-[1em] bg-transparent     focus:outline-none"
+                  className="w-[80%]  ml-[1em] bg-transparent text-base      focus:outline-none"
                 />
               </div>
 
-              <button className="w-[65%] h-[4rem] rounded-full  mb-3  bg-[#406CDA] text-[1em] text-white">
+              <button className="w-[62%] h-[4rem] rounded-full  mb-3  bg-[#406CDA] text-[1em] text-white">
                 Sign Up
               </button>
             </form>
@@ -263,9 +263,14 @@ const Signup = () => {
                 {/* <MdCheckBoxOutlineBlank/> */}
 
                 <p className="text-[1em]">
-                  <MdCheckBox className="mb-1 inline mr-1" />
-                  By signing up you accept our Terms & Conditions and Privacy
-                  Policy
+                  <MdCheckBox className="mb-1 inline mr-1 text-blue-500" />
+                  By signing up you accept our{" "}
+                  <span className="font-bold underline">
+                    Terms & Conditions
+                  </span>{" "}
+                  <span className="font-bold underline">
+                    and Privacy Policy
+                  </span>
                 </p>
               </div>
             </div>
