@@ -93,11 +93,13 @@ const SignIn = () => {
               src="/images/hb-full-logo.png"
               alt=""
             />
-            <h1 className=" absolute mt-[145px] ml-[25px] text-3xl text-white  [font-weight:500]">
+            <h1 className=" absolute mt-[8rem] ml-[25px] text-[2.2em] text-white   [font-weight:500]">
               Welcome
             </h1>
             <div className=" absolute mt-[180px] ml-[25px] flex justify-center items-center">
-              <p className=" text-base text-white  ">Don’t have an account?</p>
+              <p className=" text-[1.2em] text-white  ">
+                Don’t have an account?
+              </p>
               <button className="w-[6rem] h-[1.3rem] ml-2 mt-[.1em]  border-[1px]  text-[.8em] text-white font-bold  rounded-[10px]  ">
                 Register now
               </button>
@@ -122,41 +124,43 @@ const SignIn = () => {
 
           <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
             <form className="mt-[2rem]  text-center">
-              <div className="w-[90%]  h-[3rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
+              <div className="w-[90%]  h-[4rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1em]  bg-transparent   focus:outline-none"
+                  className=" w-[80%] h-[95%] text-xl ml-[1em]  bg-transparent   focus:outline-none"
                 />
               </div>
-              <div className=" w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
+              <div className=" w-[90%] h-[4rem] flex justify-center items-center bg-gray-100 mb-[1rem]  mx-auto rounded-full">
                 <RiLockPasswordLine className=" text-gray-500 ml-[1.5em]" />
                 <input
                   placeholder="Password"
-                  className="w-[80%] h-[95%] ml-[1.2em] bg-transparent     focus:outline-none"
+                  className="w-[80%] h-[95%] text-xl ml-[1.2em] bg-transparent     focus:outline-none"
                 />
                 {/* <FiEye className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" /> */}
-                <FiEyeOff className=" text-2xl mr-[1em] text-gray-400 cursor-pointer" />
+                <FiEyeOff className=" text-2xl  mr-[1em] text-gray-400 cursor-pointer" />
               </div>
 
-              <button className="w-[65%] h-[3rem] rounded-full  mb-3  bg-[#406CDA] text-white">
+              <button className="w-[65%] h-[4rem] rounded-full text-xl  mb-3  bg-[#406CDA] text-white">
                 Sign Up
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-3 font-medium">Or quick continue with</p>
+              <p className="mb-3 font-medium text-[1.1em]">
+                Or quick continue with
+              </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.2em] h-[2.2em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.2em] h-[2.2em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
               <div className="flex justify-center items-center w-[80%] mx-auto mb-5 ">
                 {/* <MdCheckBoxOutlineBlank/> */}
 
-                <p className="text-[12px]">
+                <p className="text-[1em]">
                   <MdCheckBox className="mb-1 inline mr-1" />
                   By signing up you accept our Terms & Conditions and Privacy
                   Policy
