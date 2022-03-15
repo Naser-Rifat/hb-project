@@ -115,7 +115,8 @@ const ForgetPass = () => {
               <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
               <input
                 placeholder="Phone Number"
-                className=" w-[80%]  ml-[1em]  bg-transparent   focus:outline-none"
+                type="number"
+                className=" w-[80%] h-full ml-[1em] text-xl   bg-transparent   focus:outline-none"
               />
             </div>
 

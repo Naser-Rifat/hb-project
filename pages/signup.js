@@ -213,28 +213,29 @@ const Signup = () => {
 
           <div className="absolute w-full h-full rounded-t-[35px] mt-[270px]  bg-white ">
             <form className="mt-[2rem]  text-center">
-              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
+              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] text-xl h-[4rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Phone Number"
                   className=" w-[80%] h-[95%] ml-[1em]  bg-transparent   focus:outline-none"
                 />
               </div>
-              <div className="w-[90%] flex  justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
+              <div className="w-[90%] flex  justify-center items-center bg-gray-100 mb-[1rem] text-xl h-[4rem] mx-auto rounded-full">
                 <BiUser className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Full Name"
                   className=" w-[80%] h-[95%] ml-[1em]  bg-transparent focus:outline-none"
                 />
               </div>
-              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
+              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem]  text-xl h-[4rem] mx-auto rounded-full">
                 <RiLockPasswordLine className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Password"
+                  type="number"
                   className="w-[80%] h-[95%] ml-[1em] bg-transparent     focus:outline-none"
                 />
               </div>
-              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
+              <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem]  text-xl h-[4rem] mx-auto rounded-full">
                 <VscReferences className=" text-gray-500 ml-[1em]" />
                 <input
                   placeholder="Refer code (Optional)"
@@ -242,24 +243,26 @@ const Signup = () => {
                 />
               </div>
 
-              <button className="w-[65%] h-[3rem] rounded-full  mb-3  bg-[#406CDA] text-white">
+              <button className="w-[65%] h-[4rem] rounded-full  mb-3  bg-[#406CDA] text-white">
                 Sign Up
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-3 font-medium">Or quick continue with</p>
+              <p className="mb-3 font-medium text-[1.1em]">
+                Or quick continue with
+              </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.2em] h-[2.2em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[40px] h-[40px] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.2em] h-[2.2em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
               <div className="flex justify-center items-center w-[80%] mx-auto mb-5 ">
                 {/* <MdCheckBoxOutlineBlank/> */}
 
-                <p className="text-[12px]">
+                <p className="text-[1em]">
                   <MdCheckBox className="mb-1 inline mr-1" />
                   By signing up you accept our Terms & Conditions and Privacy
                   Policy
