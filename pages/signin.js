@@ -86,16 +86,19 @@ const SignIn = () => {
             </svg>
 
             <Image
+              width="300"
+              height="300"
+              layout="fill"
               className="absolute ml-[25px]  mt-[95px]"
               src="/images/hb-full-logo.png"
               alt=""
             />
-            <h1 className=" absolute mt-[145px] ml-[25px] text-2xl text-white  [font-weight:500]">
+            <h1 className=" absolute mt-[145px] ml-[25px] text-3xl text-white  [font-weight:500]">
               Welcome
             </h1>
             <div className=" absolute mt-[180px] ml-[25px] flex justify-center items-center">
-              <p className=" text-sm text-white  ">Don’t have an account?</p>
-              <button className="w-[6rem] h-[1.3rem] ml-2 text-[.8em] border-[1px] text-white rounded-[10px]  ">
+              <p className=" text-base text-white  ">Don’t have an account?</p>
+              <button className="w-[6rem] h-[1.3rem] ml-2 mt-[.1em]  border-[1px]  text-[.8em] text-white font-bold  rounded-[10px]  ">
                 Register now
               </button>
             </div>
@@ -104,13 +107,20 @@ const SignIn = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <Image className="" src="/images/hb-logo.svg" alt="" />
+              <Image
+                width="375"
+                height="375"
+                layout="fill"
+                className=""
+                src="/images/hb-logo.svg"
+                alt=""
+              />
             </div>
           </div>
 
           {/* sign up input field */}
 
-          <div className="absolute w-full h-full rounded-t-[35px] mt-[270px]  bg-white ">
+          <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%]  h-[3rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />

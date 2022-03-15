@@ -187,10 +187,10 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[145px] ml-[25px] text-2xl text-white  [font-weight:500]">
+            <h1 className=" absolute mt-[145px] ml-[25px] text-3xl text-white  [font-weight:500]">
               Sign Up
             </h1>
-            <p className=" absolute mt-[180px] ml-[25px] text-sm text-white  ">
+            <p className=" absolute mt-[11em] w-[75%]  ml-[25px] text-lg text-white  ">
               Sign Up to Healthbondu and amazing thing near around you
             </p>
 
@@ -211,7 +211,7 @@ const Signup = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full h-full rounded-t-[35px] mt-[270px]  bg-white ">
+          <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] text-xl h-[4rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
@@ -243,7 +243,7 @@ const Signup = () => {
                 />
               </div>
 
-              <button className="w-[65%] h-[4rem] rounded-full  mb-3  bg-[#406CDA] text-white">
+              <button className="w-[65%] h-[4rem] rounded-full  mb-3  bg-[#406CDA] text-[1em] text-white">
                 Sign Up
               </button>
             </form>

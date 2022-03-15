@@ -13,7 +13,7 @@ const PassChangedPop = () => {
   return (
     <section className=" min-w-screen h-full md:hidden">
       <div className="absolute bg-[#000] w-full h-96"></div>
-      <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-full  bg-gray-100 ">
+      <div className="absolute w-full  rounded-t-[35px] mt-[19em] h-full  bg-gray-100 ">
         <div className="flex flex-col justify-center items-center">
           <Image className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
           <div className="flex flex-col justify-center items-center my-[2rem]">
