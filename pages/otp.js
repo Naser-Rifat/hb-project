@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowLeft } from "react-icons/bs";
+import Image from "next/image";
 
 const Otp = () => {
   return (
@@ -78,7 +79,7 @@ const Otp = () => {
               />
             </svg>
 
-           <image
+            <Image
               className="absolute ml-[25px] mt-[95px]"
               src="/images/otp-logo.png"
               alt="otp-logo"
@@ -100,7 +101,7 @@ const Otp = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-             <image className="" src="/images/hb-logo.svg" alt="" />
+              <Image className="" src="/images/hb-logo.svg" alt="" />
             </div>
           </div>
 

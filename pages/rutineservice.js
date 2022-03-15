@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const RutineService = () => {
   return (
@@ -13,11 +14,11 @@ const RutineService = () => {
           {" "}
         </div>
 
-       <image
+        <Image
           className="absolute object-contain  mt-[10%] ml-[10%] w-[90%]"
           src="/images/rutine-service.svg"
         />
-       <image
+        <Image
           className="absolute  w-[50%] mt-[50%]"
           src="/images/hb-big-logo.svg"
           alt=""

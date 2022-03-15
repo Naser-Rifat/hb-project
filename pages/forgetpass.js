@@ -7,6 +7,7 @@ import { VscReferences } from "react-icons/vsc";
 import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { MdCheckBox } from "react-icons/md";
 import { FiEye, FiEyeOff } from "react-icons/fi";
+import Image from "next/image";
 
 const ForgetPass = () => {
   return (
@@ -85,7 +86,7 @@ const ForgetPass = () => {
               />
             </svg>
 
-            <image
+            <Image
               className="absolute ml-[25px] mt-[95px]"
               src="/images/passwordlogo.svg"
               alt=""
@@ -101,7 +102,7 @@ const ForgetPass = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <image className="" src="/images/hb-logo.svg" alt="" />
+              <Image className="" src="/images/hb-logo.svg" alt="" />
             </div>
           </div>
 

@@ -6,6 +6,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { VscReferences } from "react-icons/vsc";
 import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { MdCheckBox } from "react-icons/md";
+import Image from "next/image";
 
 const Signup = () => {
   return (
@@ -201,7 +202,14 @@ const Signup = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-             <image className="" src="/images/hb-logo.svg" alt="" />
+              <Image
+                width={500}
+                height={500}
+                layout="fill"
+                className=""
+                src="/images/hb-logo.svg"
+                alt=""
+              />
             </div>
           </div>
 

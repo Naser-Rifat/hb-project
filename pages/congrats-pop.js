@@ -7,6 +7,7 @@ import { VscReferences } from "react-icons/vsc";
 import { MdCheckBoxOutlineBlank } from "react-icons/md";
 import { MdCheckBox } from "react-icons/md";
 import { FiEye, FiEyeOff } from "react-icons/fi";
+import Image from "next/image";
 
 const CongratsPop = () => {
   return (
@@ -14,7 +15,14 @@ const CongratsPop = () => {
       <div className="absolute bg-[#000] w-full h-96"></div>
       <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-full  bg-gray-100 ">
         <div className="flex flex-col justify-center items-center">
-          <image className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
+          <Image
+            width={500}
+            height={500}
+            layout="fill"
+            className="w-[40%] mt-[5rem]"
+            src="/images/clock.svg"
+            alt=""
+          />
           <div className="flex flex-col justify-center items-center my-[2rem]">
             <h1 className="text-[1.8em] font-medium text-[#3D6ED6]">
               Congratulation

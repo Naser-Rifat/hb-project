@@ -1,4 +1,8 @@
 html,
+.signupPageColor {
+  background: linear-gradient(140.13deg, #2c62d6 -4.34%, #48b0e0 104.04%);
+}
+
 body {
   padding: 0;
   margin: 0;
