@@ -122,7 +122,7 @@ const SignIn = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
+          <div className="absolute w-full rounded-t-[35px] mt-[19em]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%]  h-[4rem]  mb-[1rem] flex justify-center items-center bg-gray-100  mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
