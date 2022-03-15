@@ -105,12 +105,10 @@ const Signup = () => {
 
       {/* mobile responsive part  */}
 
-      <div className="min-w-screen h-full  md:hidden ">
+      <div className="min-w-screen h-96  md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-full signupPageColor m-0">
             <svg
-              // width="385"
-              height="382"
               className=" absolute w-[100%]  "
               viewBox="0 0 375 382"
               fill="none"
@@ -165,8 +163,6 @@ const Signup = () => {
               </defs>
             </svg>
             <svg
-              width="360"
-              height="235"
               className="mt-20 mr-20 w-[100%] absolute opacity-70"
               viewBox="0 0 375 235"
               fill="none"

@@ -17,8 +17,6 @@ const SignIn = () => {
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
-              // width="375"
-              height="382"
               className=" absolute w-full  "
               viewBox="0 0 375 382"
               fill="none"
