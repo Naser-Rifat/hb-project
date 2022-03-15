@@ -105,7 +105,7 @@ const Signup = () => {
 
       {/* mobile responsive part  */}
 
-      <div className="w-full h-[100vh]  bg-transparent md:hidden ">
+      <div className="w-full h-[100vh]  bg-white md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-full signupPageColor m-0">
             <svg
