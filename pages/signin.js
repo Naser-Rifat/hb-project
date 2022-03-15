@@ -13,7 +13,7 @@ const SignIn = () => {
   return (
     //  mobile view
     <section>
-      <div className="min-w-screen h-full md:hidden ">
+      <div className="min-w-screen h-[100vh] md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
