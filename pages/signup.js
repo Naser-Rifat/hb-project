@@ -105,29 +105,29 @@ const Signup = () => {
 
       {/* mobile responsive part  */}
 
-      <div className="min-w-screen h-full md:hidden ">
+      <div className="min-w-screen h-full  md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
-          <div className="absolute w-full h-96 signupPageColor ">
+          <div className="absolute w-full h-full signupPageColor m-0">
             <svg
-              // width="375"
+              // width="385"
               height="382"
-              className=" absolute w-full  "
+              className=" absolute w-[100%]  "
               viewBox="0 0 375 382"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <rect width="375" height="382" fill="url(#paint0_linear_7_26)" />
+              <rect width="500" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
                 id="mask0_7_26"
                 style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
-                width="375"
+                width="500"
                 height="382"
               >
                 <rect
-                  width="375"
+                  width="500"
                   height="382"
                   fill="url(#paint1_linear_7_26)"
                 />
@@ -165,9 +165,9 @@ const Signup = () => {
               </defs>
             </svg>
             <svg
-              // width="360"
+              width="360"
               height="235"
-              className="mt-20 mr-20 w-full absolute opacity-70"
+              className="mt-20 mr-20 w-[100%] absolute opacity-70"
               viewBox="0 0 375 235"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -202,20 +202,20 @@ const Signup = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <Image
-                width={500}
-                height={500}
+              {/* <Image
+                width={400}
+                height={400}
                 layout="fill"
-                className=""
+                className="bg-gray-500"
                 src="/images/hb-logo.svg"
                 alt=""
-              />
+              /> */}
             </div>
           </div>
 
           {/* sign up input field */}
 
-          <div className="absolute w-full  rounded-t-[35px] mt-[270px]  bg-white ">
+          <div className="absolute w-full h-full rounded-t-[35px] mt-[270px]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
