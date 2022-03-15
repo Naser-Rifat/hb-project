@@ -105,11 +105,11 @@ const Signup = () => {
 
       {/* mobile responsive part  */}
 
-      <div className="min-w-screen h-96  md:hidden ">
+      <div className="w-full h-[100vh]  md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
           <div className="absolute w-full h-full signupPageColor m-0">
             <svg
-              className=" absolute w-[100%]  "
+              className=" absolute w-[100%] mt-[-1em] "
               viewBox="0 0 375 382"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -163,7 +163,7 @@ const Signup = () => {
               </defs>
             </svg>
             <svg
-              className="mt-20 mr-20 w-[100%] absolute opacity-70"
+              className="mt-[4.5em] mr-20 w-[100%] absolute opacity-70"
               viewBox="0 0 375 235"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -175,9 +175,9 @@ const Signup = () => {
               />
             </svg>
             <svg
-              width="40"
-              height="40"
-              className="absolute ml-[25px] mt-[5em]"
+              width="39"
+              height="39"
+              className="absolute ml-[25px] mt-[5rem]"
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -187,16 +187,17 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[4.5em] ml-[25px] text-3xl text-white  [font-weight:400]">
+            <h1 className=" absolute mt-[7.7rem] ml-[25px] text-[1.45em] text-white  [font-weight:400]">
               Sign Up
             </h1>
-            <p className=" absolute mt-[11em] w-[80%]  ml-[25px] text-lg text-white  ">
+            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white  ">
               Sign Up to Healthbondu and amazing thing near around you
             </p>
 
             <div className="absolute flex justify-between w-full p-5">
               <p className="text-white">
-                <BsArrowLeft className="inline mb-[2px]" /> Back
+                <BsArrowLeft className="inline mb-[2px] bold" />{" "}
+                <span className="text-[1em] font-thin"> Back</span>
               </p>
               {/* <Image
                 width={400}
@@ -211,64 +212,66 @@ const Signup = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full h-full rounded-t-[35px] mt-[19em]  bg-white ">
-            <form className="mt-[2rem]  text-center">
-              <div className="w-[80%] flex justify-center items-center bg-[#F0F1FF] mb-[1rem]  h-[4rem] mx-auto rounded-full">
-                <HiOutlineDeviceMobile className=" text-lg  text-gray-500 ml-[1em]" />
+          <div className="absolute w-full  rounded-t-[35px] mt-[15.7rem]  bg-white ">
+            <form className="mt-[1.8em]  text-center">
+              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.2rem] mx-auto rounded-full">
+                <HiOutlineDeviceMobile className=" text-base  text-gray-500 ml-[1rem]" />
                 <input
                   placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1em] text-base  bg-transparent   focus:outline-none"
+                  className=" w-[80%] h-[95%] ml-[1rem] text-[.9em]  bg-transparent   focus:outline-none"
                 />
               </div>
-              <div className="w-[80%] flex  justify-center items-center  bg-[#F0F1FF] mb-[1rem]  h-[4rem] mx-auto rounded-full">
-                <BiUser className=" text-gray-500 text-lg  ml-[1em]" />
+              <div className="w-[83%] flex  justify-center items-center  bg-[#F0F1FF] mb-[.7rem]   h-[3.2rem] mx-auto rounded-full">
+                <BiUser className=" text-gray-500 text-base  ml-[1rem]" />
                 <input
                   placeholder="Full Name"
-                  className=" w-[80%]  ml-[1em] text-base  bg-transparent focus:outline-none"
+                  className=" w-[80%]  ml-[1rem] text-[.9em]  bg-transparent focus:outline-none"
                 />
               </div>
-              <div className="w-[80%] flex justify-center  items-center bg-[#F0F1FF] mb-[1rem]   h-[4rem] mx-auto rounded-full">
-                <RiLockPasswordLine className=" text-gray-500 text-lg  ml-[1em] " />
+              <div className="w-[83%] flex justify-center  items-center bg-[#F0F1FF] mb-[.7rem]    h-[3.2rem] mx-auto rounded-full">
+                <RiLockPasswordLine className=" text-gray-500 text-base  ml-[1rem] " />
                 <input
                   placeholder="Password"
-                  type="number"
-                  className="w-[80%]  ml-[1em] bg-transparent text-base    focus:outline-none"
+                  className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]    focus:outline-none"
                 />
               </div>
-              <div className="w-[80%] flex justify-center items-center bg-[#F0F1FF] mb-[1rem]  text-xl h-[4rem] mx-auto rounded-full">
-                <VscReferences className=" text-gray-500 text-lg  ml-[1em] " />
+              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  text-xl h-[3.2rem] mx-auto rounded-full">
+                <VscReferences className=" text-gray-500 text-base  ml-[1rem] " />
                 <input
                   placeholder="Refer code (Optional)"
-                  className="w-[80%]  ml-[1em] bg-transparent text-base      focus:outline-none"
+                  className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]      focus:outline-none"
                 />
               </div>
 
-              <button className="w-[62%] h-[4rem] rounded-full mt-[1rem] mb-3  bg-[#406CDA] text-[1em] text-white">
+              <button className="w-[55%] h-[3rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
                 Sign Up
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-3 font-medium text-[1.1em]">
+              <p className="mb-3 font-medium text-[.9em]">
                 Or quick continue with
               </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[2.3em] h-[2.3em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[2.3em] h-[2.3em] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-2xl font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
-              <div className="flex justify-center items-center w-[80%] mx-auto mb-5 ">
+              <div className="flex justify-center items-center w-[85%] mx-auto mb-5 ">
                 {/* <MdCheckBoxOutlineBlank/> */}
 
-                <p className="text-[1em]">
-                  <MdCheckBox className="mb-1 inline mr-1 text-blue-500" />
-                  By signing up you accept our{" "}
-                  <span className="font-bold underline">
+                <p className="">
+                  <MdCheckBox className="mb-1 inline mr-1 text-blue-500 text-sm" />
+                  <span className="text-[.8em]">
+                    {" "}
+                    By signing up you accept our{" "}
+                  </span>
+                  <span className="text-[.8em] font-bold underline">
                     Terms & Conditions
                   </span>{" "}
-                  <span className="font-bold underline">
+                  <span className="text-[.8em] font-bold underline">
                     and Privacy Policy
                   </span>
                 </p>
