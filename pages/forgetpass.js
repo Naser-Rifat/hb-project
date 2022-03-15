@@ -85,7 +85,7 @@ const ForgetPass = () => {
               />
             </svg>
 
-            <img
+            <image
               className="absolute ml-[25px] mt-[95px]"
               src="/images/passwordlogo.svg"
               alt=""
@@ -101,7 +101,7 @@ const ForgetPass = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <img className="" src="/images/hb-logo.svg" alt="" />
+              <image className="" src="/images/hb-logo.svg" alt="" />
             </div>
           </div>
 

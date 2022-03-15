@@ -85,7 +85,7 @@ const CreateAccount = () => {
               />
             </svg>
 
-            <img
+           <image
               className="absolute ml-[25px] mt-[95px]"
               src="/images/create-pass.svg"
               alt=""
@@ -102,7 +102,7 @@ const CreateAccount = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <img className="" src="/images/hb-logo.svg" alt="" />
+             <image className="" src="/images/hb-logo.svg" alt="" />
             </div>
           </div>
 
@@ -111,7 +111,7 @@ const CreateAccount = () => {
           <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-full  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
-                <img
+               <image
                   src="/images/changepass.svg"
                   className="  text-gray-500 ml-[1em]"
                 />
@@ -121,7 +121,7 @@ const CreateAccount = () => {
                 />
               </div>
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
-                <img
+               <image
                   src="/images/changepass.svg"
                   className="  text-gray-500 ml-[1em]"
                 />

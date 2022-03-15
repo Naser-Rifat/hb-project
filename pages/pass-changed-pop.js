@@ -14,7 +14,7 @@ const PassChangedPop = () => {
       <div className="absolute bg-[#000] w-full h-96"></div>
       <div className="absolute w-full  rounded-t-[35px] mt-[270px] h-full  bg-gray-100 ">
         <div className="flex flex-col justify-center items-center">
-          <img className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
+         <image className="w-[40%] mt-[5rem]" src="/images/clock.svg" alt="" />
           <div className="flex flex-col justify-center items-center my-[2rem]">
             <h1 className="text-[1.8em] font-medium text-[#3D6ED6]">
               Password Changed

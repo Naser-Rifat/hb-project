@@ -47,8 +47,8 @@ const Otp = () => {
                   y2="410.332"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#2C62D6" />
-                  <stop offset="1" stop-color="#48B0E0" />
+                  <stop stopColor="#2C62D6" />
+                  <stop offset="1" stopColor="#48B0E0" />
                 </linearGradient>
                 <linearGradient
                   id="paint1_linear_7_26"
@@ -58,8 +58,8 @@ const Otp = () => {
                   y2="410.332"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#2C62D6" />
-                  <stop offset="1" stop-color="#48B0E0" />
+                  <stop stopColor="#2C62D6" />
+                  <stop offset="1" stopColor="#48B0E0" />
                 </linearGradient>
               </defs>
             </svg>
@@ -78,7 +78,7 @@ const Otp = () => {
               />
             </svg>
 
-            <img
+           <image
               className="absolute ml-[25px] mt-[95px]"
               src="/images/otp-logo.png"
               alt="otp-logo"
@@ -100,7 +100,7 @@ const Otp = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <img className="" src="/images/hb-logo.svg" alt="" />
+             <image className="" src="/images/hb-logo.svg" alt="" />
             </div>
           </div>
 
