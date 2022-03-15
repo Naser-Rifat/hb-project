@@ -16,8 +16,6 @@ const ForgetPass = () => {
         <div className=" flex flex-col h-[100vh] relative   ">
           <div className="absolute w-full h-96 signupPageColor ">
             <svg
-              // width="375"
-              height="382"
               className=" absolute w-full  "
               viewBox="0 0 375 382"
               fill="none"
@@ -72,8 +70,6 @@ const ForgetPass = () => {
               </defs>
             </svg>
             <svg
-              // width="360"
-              height="235"
               className="mt-20 mr-20 w-full absolute opacity-70"
               viewBox="0 0 375 235"
               fill="none"
@@ -87,6 +83,9 @@ const ForgetPass = () => {
             </svg>
 
             <Image
+              width={500}
+              height={500}
+              layout="fill"
               className="absolute ml-[25px] mt-[95px]"
               src="/images/passwordlogo.svg"
               alt=""
@@ -102,13 +101,20 @@ const ForgetPass = () => {
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px]" /> Back
               </p>
-              <Image className="" src="/images/hb-logo.svg" alt="" />
+              <Image
+                width={500}
+                height={500}
+                layout="fill"
+                className=""
+                src="/images/hb-logo.svg"
+                alt=""
+              />
             </div>
           </div>
 
           {/* sign up input field */}
 
-          <div className="absolute w-full  rounded-t-[35px] mt-[270px]  bg-white ">
+          <div className="absolute w-full h-full  rounded-t-[35px] mt-[270px]  bg-white ">
             <form className="mt-[2rem]  text-center">
               <div className="w-[90%] flex justify-center items-center bg-gray-100 mb-[1rem] h-[3rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-gray-500 ml-[1em]" />
