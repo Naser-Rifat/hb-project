@@ -187,7 +187,7 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.5em] text-white  font-bold">
+            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.5  em] text-white  font-bold">
               Sign Up
             </h1>
             <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:500]  ">
@@ -245,10 +245,10 @@ const Signup = () => {
                 Or quick continue with
               </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.6em] font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.6em] font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
