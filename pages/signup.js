@@ -199,14 +199,7 @@ const Signup = () => {
                 <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              {/* <Image
-                width={400}
-                height={400}
-                layout="fill"
-                className="bg-gray-500"
-                src="/images/hb-logo.svg"
-                alt=""
-              /> */}
+              <Image width={30} height={30} src="/hb-logo.svg" alt="" />
             </div>
           </div>
 
