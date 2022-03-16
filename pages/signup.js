@@ -256,7 +256,7 @@ const Signup = () => {
                 {/* <MdCheckBoxOutlineBlank/> */}
 
                 <p className="">
-                  <MdCheckBox className="mb-1 inline mr-1 text-blue-500 text-sm" />
+                  <MdCheckBox className="mb-1 inline mr-1 mt-1 text-blue-500 text-sm" />
                   <span className="text-[.8em]">
                     {" "}
                     By signing up you accept our{" "}
