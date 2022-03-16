@@ -187,7 +187,7 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.6em] text-white  font-bold">
+            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.5em] text-white  font-bold">
               Sign Up
             </h1>
             <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:500]  ">
@@ -236,7 +236,7 @@ const Signup = () => {
                 />
               </div>
 
-              <button className="w-[55%] h-[3.5rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[1.1em] font-medium  text-white">
+              <button className="w-[55%] h-[3.5rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[1em] font-medium  text-white">
                 Sign Up
               </button>
             </form>
