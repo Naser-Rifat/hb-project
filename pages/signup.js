@@ -107,7 +107,7 @@ const Signup = () => {
 
       <div className="w-full h-[100vh]  bg-white md:hidden ">
         <div className=" flex flex-col h-[100vh] relative  ">
-          <div className="absolute w-full h-full signupPageColor m-0">
+          <div className="absolute w-full  signupPageColor m-0">
             <svg
               className=" absolute w-[100%] mt-[-1em] "
               viewBox="0 0 375 382"
@@ -212,7 +212,7 @@ const Signup = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute w-full   rounded-t-[35px] mt-[15.7rem]  bg-white ">
+          <div className="absolute w-full   rounded-t-[35px] mt-[15.7rem]   bg-white ">
             <form className="mt-[1.8em]  text-center">
               <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.2rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-base  text-gray-500 ml-[1rem]" />

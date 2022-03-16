@@ -10,7 +10,7 @@ const RutineService = () => {
           <button className="  text-gray-500">skip</button>
         </div>
         <div className="absolute w-full h-full bg-white "></div>
-        <div className=" absolute shape w-full h-full bg-gray-100 mt-[30%] ">
+        <div className=" absolute shape w-full h-full bg-gray-100 mt-[30%]  ">
           {" "}
         </div>
 
