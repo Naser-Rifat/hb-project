@@ -187,10 +187,10 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[7.7rem] ml-[25px] text-[1.45em] text-white  font-semibold">
+            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.6em] text-white  font-bold">
               Sign Up
             </h1>
-            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:300]  ">
+            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:500]  ">
               Sign Up to Healthbondu and amazing thing near around you
             </p>
 
@@ -236,19 +236,19 @@ const Signup = () => {
                 />
               </div>
 
-              <button className="w-[55%] h-[3.5rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
+              <button className="w-[55%] h-[3.5rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[1.1em] font-medium  text-white">
                 Sign Up
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-3 font-medium text-[.9em]">
+              <p className="mb-3 font-bold text-[.9em]">
                 Or quick continue with
               </p>
               <div className="flex justify-center items-center mb-2">
-                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
+                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#3B5999] shadow-lg">
                   f
                 </div>
-                <div className="w-[2.3rem] h-[2.3rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
+                <div className="w-[2.7rem] h-[2.7rem] mx-2 flex justify-center items-center text-[1.3em] font-bold  rounded-full text-white bg-[#DD4B39] shadow-lg">
                   G
                 </div>
               </div>
@@ -256,15 +256,15 @@ const Signup = () => {
                 {/* <MdCheckBoxOutlineBlank/> */}
 
                 <p className="">
-                  <MdCheckBox className="mb-1 inline mr-1 mt-1 text-blue-500 text-sm" />
-                  <span className="text-[.8em]">
+                  <MdCheckBox className="mb-1 inline mr-1 mt-1 text-blue-500 text-base" />
+                  <span className="text-[.9em]">
                     {" "}
                     By signing up you accept our{" "}
                   </span>
-                  <span className="text-[.8em] font-bold underline">
+                  <span className="text-[.9em] font-bold underline">
                     Terms & Conditions
                   </span>{" "}
-                  <span className="text-[.8em] font-bold underline">
+                  <span className="text-[.9em] font-bold underline">
                     and Privacy Policy
                   </span>
                 </p>
