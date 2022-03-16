@@ -264,8 +264,9 @@ const Signup = () => {
                   <span className="text-[.9em] font-bold underline">
                     Terms & Conditions
                   </span>{" "}
+                  <span className="text-[.9em]">and</span>
                   <span className="text-[.9em] font-bold underline">
-                    and Privacy Policy
+                    Privacy Policy
                   </span>
                 </p>
               </div>
