@@ -187,10 +187,10 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[7.7rem] ml-[25px] text-[1.45em] text-white  [font-weight:400]">
+            <h1 className=" absolute mt-[7.7rem] ml-[25px] text-[1.45em] text-white  [font-weight:500]">
               Sign Up
             </h1>
-            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white  ">
+            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:300]  ">
               Sign Up to Healthbondu and amazing thing near around you
             </p>
 
