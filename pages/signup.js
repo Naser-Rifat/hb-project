@@ -207,28 +207,28 @@ const Signup = () => {
 
           <div className="absolute w-full   rounded-t-[35px] mt-[15.7rem]   bg-white ">
             <form className="mt-[1.8em]  text-center">
-              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.2rem] mx-auto rounded-full">
+              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.4rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-base  text-gray-600 ml-[1rem]" />
                 <input
                   placeholder="Phone Number"
-                  className=" w-[80%] h-[95%] ml-[1rem] text-[.9em]  bg-transparent   focus:outline-none"
+                  className=" w-[80%]  ml-[1rem] text-[.9em]  bg-transparent   focus:outline-none"
                 />
               </div>
-              <div className="w-[83%] flex  justify-center items-center  bg-[#F0F1FF] mb-[.7rem]   h-[3.2rem] mx-auto rounded-full">
+              <div className="w-[83%] flex  justify-center items-center  bg-[#F0F1FF] mb-[.7rem]   h-[3.4rem] mx-auto rounded-full">
                 <BiUser className=" text-gray-600 text-base  ml-[1rem]" />
                 <input
                   placeholder="Full Name"
                   className=" w-[80%]  ml-[1rem] text-[.9em]  bg-transparent focus:outline-none"
                 />
               </div>
-              <div className="w-[83%] flex justify-center  items-center bg-[#F0F1FF] mb-[.7rem]    h-[3.2rem] mx-auto rounded-full">
+              <div className="w-[83%] flex justify-center  items-center bg-[#F0F1FF] mb-[.7rem]    h-[3.4rem] mx-auto rounded-full">
                 <RiLockPasswordLine className=" text-gray-600 text-base  ml-[1rem] " />
                 <input
                   placeholder="Password"
                   className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]    focus:outline-none"
                 />
               </div>
-              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem] h-[3.2rem] mx-auto rounded-full">
+              <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem] h-[3.4rem] mx-auto rounded-full">
                 <VscReferences className=" text-gray-600 text-base  ml-[1rem] " />
                 <input
                   placeholder="Refer code (Optional)"
