@@ -208,35 +208,35 @@ const Signup = () => {
           <div className="absolute w-full   rounded-t-[35px] mt-[15.7rem]   bg-white ">
             <form className="mt-[1.8em]  text-center">
               <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.2rem] mx-auto rounded-full">
-                <HiOutlineDeviceMobile className=" text-base  text-gray-500 ml-[1rem]" />
+                <HiOutlineDeviceMobile className=" text-base  text-gray-600 ml-[1rem]" />
                 <input
                   placeholder="Phone Number"
                   className=" w-[80%] h-[95%] ml-[1rem] text-[.9em]  bg-transparent   focus:outline-none"
                 />
               </div>
               <div className="w-[83%] flex  justify-center items-center  bg-[#F0F1FF] mb-[.7rem]   h-[3.2rem] mx-auto rounded-full">
-                <BiUser className=" text-gray-500 text-base  ml-[1rem]" />
+                <BiUser className=" text-gray-600 text-base  ml-[1rem]" />
                 <input
                   placeholder="Full Name"
                   className=" w-[80%]  ml-[1rem] text-[.9em]  bg-transparent focus:outline-none"
                 />
               </div>
               <div className="w-[83%] flex justify-center  items-center bg-[#F0F1FF] mb-[.7rem]    h-[3.2rem] mx-auto rounded-full">
-                <RiLockPasswordLine className=" text-gray-500 text-base  ml-[1rem] " />
+                <RiLockPasswordLine className=" text-gray-600 text-base  ml-[1rem] " />
                 <input
                   placeholder="Password"
                   className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]    focus:outline-none"
                 />
               </div>
               <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem] h-[3.2rem] mx-auto rounded-full">
-                <VscReferences className=" text-gray-500 text-base  ml-[1rem] " />
+                <VscReferences className=" text-gray-600 text-base  ml-[1rem] " />
                 <input
                   placeholder="Refer code (Optional)"
                   className="w-[80%]  ml-[1rem] bg-transparent text-[.9em]      focus:outline-none"
                 />
               </div>
 
-              <button className="w-[55%] h-[3rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
+              <button className="w-[55%] h-[4rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
                 Sign Up
               </button>
             </form>
