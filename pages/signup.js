@@ -236,7 +236,7 @@ const Signup = () => {
                 />
               </div>
 
-              <button className="w-[55%] h-[4rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
+              <button className="w-[55%] h-[3.5rem] rounded-full mt-[.5rem] mb-3  bg-[#406CDA] text-[.9em] text-white">
                 Sign Up
               </button>
             </form>
