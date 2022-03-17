@@ -77,9 +77,10 @@ const ForgetPass = () => {
 
             <div className="absolute mt-[6rem] ml-[1.7rem]">
               <Image
-                width="40"
-                height="40"
+                width={40}
+                height={40}
                 src="/images/forgetpass/forgetpass.svg"
+                alt="forgetPass"
               />
             </div>
             <div className="absolute mt-[8.7rem] ml-[1.7rem]">
@@ -96,7 +97,12 @@ const ForgetPass = () => {
                 <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={32} height={32} src="/images/hb-logo.svg" alt="" />
+              <Image
+                width={32}
+                height={32}
+                src="/images/hb-logo.svg"
+                alt="hb-logo"
+              />
             </div>
           </div>
 

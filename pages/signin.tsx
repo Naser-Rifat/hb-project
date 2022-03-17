@@ -94,10 +94,10 @@ const SignIn = () => {
             </svg> */}
             <div className="absolute mt-[6rem] ml-[1.7rem]">
               <Image
-                width="100"
-                height="50"
+                width={100}
+                height={50}
                 src="/images/signin/hb-full-logo.svg"
-                alt=""
+                alt="full-logo"
               />
             </div>
             <div className="absolute mt-[8.7rem] ml-[1.7rem]">
@@ -117,7 +117,12 @@ const SignIn = () => {
                 <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={32} height={32} src="/images/hb-logo.svg" alt="" />
+              <Image
+                width={32}
+                height={32}
+                src="/images/hb-logo.svg"
+                alt="hb-logo"
+              />
             </div>
           </div>
 
@@ -147,7 +152,7 @@ const SignIn = () => {
                       width="15"
                       height="15"
                       src="/images/signin/check.svg"
-                      alt=""
+                      alt="checkSvg"
                     />
                   </span>{" "}
                   <span className="text-blue-500">Remember</span>{" "}

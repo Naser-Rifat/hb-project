@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Image from 'next/image';
-import { BiUser } from 'react-icons/bi';
-import { BsArrowLeft } from 'react-icons/bs';
-import { HiOutlineDeviceMobile } from 'react-icons/hi';
-import { MdCheckBox } from 'react-icons/md';
-import { RiLockPasswordLine } from 'react-icons/ri';
-import { VscReferences } from 'react-icons/vsc';
+import Image from "next/image";
+import { BiUser } from "react-icons/bi";
+import { BsArrowLeft } from "react-icons/bs";
+import { HiOutlineDeviceMobile } from "react-icons/hi";
+import { MdCheckBox } from "react-icons/md";
+import { RiLockPasswordLine } from "react-icons/ri";
+import { VscReferences } from "react-icons/vsc";
 
 const SignUp = () => {
   return (
@@ -117,7 +117,7 @@ const SignUp = () => {
               <rect width="500" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
                 id="mask0_7_26"
-                style={{ maskType: 'alpha' }}
+                style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
@@ -198,10 +198,10 @@ const SignUp = () => {
 
             <div className="flex absolute justify-between px-7 pt-7 w-full">
               <p className="text-white">
-                <BsArrowLeft className="inline mb-[2px] bold" />{' '}
+                <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={32} height={32} src="/hb-logo.svg" alt="" />
+              <Image width={32} height={32} src="/hb-logo.svg" alt="hb-Logo" />
             </div>
           </div>
 
@@ -260,12 +260,12 @@ const SignUp = () => {
                 <p className="">
                   <MdCheckBox className="inline my-1 mr-1 text-base text-blue-500" />
                   <span className="text-[.9em]">
-                    {' '}
-                    By signing up you accept our{' '}
+                    {" "}
+                    By signing up you accept our{" "}
                   </span>
                   <span className="text-[.9em] font-bold underline">
                     Terms & Conditions
-                  </span>{' '}
+                  </span>{" "}
                   <span className="text-[.9em]">and </span>
                   <span className="text-[.9em] font-bold underline">
                     Privacy Policy

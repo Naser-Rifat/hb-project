@@ -19,13 +19,14 @@ const RutineService = () => {
           height={50}
           // className="object-contain absolute  mt-[10%] ml-[10%] w-[90%]"
           src="/images/rutine-service.svg"
+          alt="serviceImg"
         />
         <Image
           width={50}
           height={50}
           // className="absolute  mt-[50%] w-[50%]"
           src="/images/hb-big-logo.svg"
-          alt=""
+          alt="hb-logo"
         />
       </div>
     </section>

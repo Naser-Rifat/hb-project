@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { BsArrowLeft } from 'react-icons/bs';
+import Image from "next/image";
+import { BsArrowLeft } from "react-icons/bs";
 
 const Otp = () => {
   return (
@@ -16,7 +16,7 @@ const Otp = () => {
               <rect width="500" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
                 id="mask0_7_26"
-                style={{ maskType: 'alpha' }}
+                style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
@@ -75,7 +75,12 @@ const Otp = () => {
             </svg>
 
             <div className="absolute mt-[6rem] ml-[1.7rem]">
-              <Image width="40" height="40" src="/images/otp/otp.svg" alt="" />
+              <Image
+                width={40}
+                height={40}
+                src="/images/otp/otp.svg"
+                alt="otp image"
+              />
             </div>
             <div className="absolute mt-[8.7rem] ml-[1.7rem]">
               <h1 className="  text-[1.5em] font-medium  text-white">
@@ -95,10 +100,15 @@ const Otp = () => {
 
             <div className="flex absolute justify-between px-7 pt-7 w-full">
               <p className="text-white">
-                <BsArrowLeft className="inline mb-[2px] bold" />{' '}
+                <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={32} height={32} src="/images/hb-logo.svg" alt="" />
+              <Image
+                width={32}
+                height={32}
+                src="/images/hb-logo.svg"
+                alt="hb-logo"
+              />
             </div>
           </div>
 
@@ -136,7 +146,7 @@ const Otp = () => {
                 <span className=" ml-[.2em] text-blue-400">Resend</span>
               </h3>
               <p className="text-[.65rem] leading-1">
-                Get OTP again in{' '}
+                Get OTP again in{" "}
                 <span className="text-red-400"> 05:00 Seconds</span>
               </p>
               <p></p>

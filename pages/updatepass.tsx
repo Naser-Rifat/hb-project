@@ -110,7 +110,7 @@ const UpdatePass = () => {
                   width={15}
                   height={15}
                   src="/images/updatepass/changepass.svg"
-                  alt=""
+                  alt="changePassImg"
                 />
                 <input
                   placeholder="New Password"
@@ -122,7 +122,7 @@ const UpdatePass = () => {
                   width={15}
                   height={15}
                   src="/images/updatepass/changepass.svg"
-                  alt=""
+                  alt="changePassImg"
                 />
                 <input
                   placeholder="Confirm new Password"

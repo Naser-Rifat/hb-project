@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import SignIn from "./signin";
 
 const Index = () => {
