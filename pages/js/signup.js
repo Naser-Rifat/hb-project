@@ -177,7 +177,7 @@ const Signup = () => {
             <svg
               width="39"
               height="39"
-              className="absolute ml-[25px] mt-[5rem]"
+              className="absolute ml-[1.7rem] mt-[5.6rem]"
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -187,25 +187,25 @@ const Signup = () => {
                 fill="white"
               />
             </svg>
-            <h1 className=" absolute mt-[7.7rem] ml-[1.5rem] text-[1.5em] text-white  font-bold">
-              Sign Up
-            </h1>
-            <p className=" absolute mt-[11.5em] w-[80%]  ml-[25px] text-[.88em] text-white [font-weight:500]  ">
-              Sign Up to Healthbondu and amazing thing near around you
-            </p>
+            <div className="absolute mt-[8.7rem] ml-[1.7rem]">
+              <h1 className="  text-[1.5em] text-white  font-bold">Sign Up</h1>
+              <p className="w-[80%]  mt-[.4rem] text-[.88em] text-white [font-weight:500]  ">
+                Sign Up to Healthbondu and amazing thing near around you
+              </p>
+            </div>
 
-            <div className="absolute flex justify-between w-full p-5">
+            <div className="absolute flex justify-between w-full px-7 pt-7">
               <p className="text-white">
                 <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={30} height={30} src="/hb-logo.svg" alt="" />
+              <Image width={32} height={32} src="/hb-logo.svg" alt="" />
             </div>
           </div>
 
           {/* sign up input field */}
 
-          <div className="absolute w-full   rounded-t-[35px] mt-[15.7rem]   bg-white ">
+          <div className="absolute w-full   rounded-t-[35px] mt-[17.6rem]   bg-white ">
             <form className="mt-[1.8em]  text-center">
               <div className="w-[83%] flex justify-center items-center bg-[#F0F1FF] mb-[.7rem]  h-[3.4rem] mx-auto rounded-full">
                 <HiOutlineDeviceMobile className=" text-base  text-gray-600 ml-[1rem]" />
