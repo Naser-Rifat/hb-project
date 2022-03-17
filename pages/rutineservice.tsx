@@ -14,11 +14,11 @@ const RutineService = () => {
           {" "}
         </div>
 
-        <img
+        <Image
           className="object-contain absolute  mt-[10%] ml-[10%] w-[90%]"
           src="/images/rutine-service.svg"
         />
-        <img
+        <Image
           className="absolute  mt-[50%] w-[50%]"
           src="/images/hb-big-logo.svg"
           alt=""

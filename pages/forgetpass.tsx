@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import { BsArrowLeft } from 'react-icons/bs';
-import { HiOutlineDeviceMobile } from 'react-icons/hi';
+import Image from "next/image";
+import { BsArrowLeft } from "react-icons/bs";
+import { HiOutlineDeviceMobile } from "react-icons/hi";
 
 const ForgetPass = () => {
   return (
@@ -17,7 +17,7 @@ const ForgetPass = () => {
               <rect width="500" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
                 id="mask0_7_26"
-                style={{ maskType: 'alpha' }}
+                style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
@@ -93,7 +93,7 @@ const ForgetPass = () => {
 
             <div className="flex absolute justify-between px-7 pt-7 w-full">
               <p className="text-white">
-                <BsArrowLeft className="inline mb-[2px] bold" />{' '}
+                <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
               <Image width={32} height={32} src="/images/hb-logo.svg" alt="" />
