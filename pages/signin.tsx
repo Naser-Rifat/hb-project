@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Image from 'next/image';
-import { BsArrowLeft } from 'react-icons/bs';
-import { HiOutlineDeviceMobile } from 'react-icons/hi';
-import { RiLockPasswordLine } from 'react-icons/ri';
+import Image from "next/image";
+import { BsArrowLeft } from "react-icons/bs";
+import { HiOutlineDeviceMobile } from "react-icons/hi";
+import { RiLockPasswordLine } from "react-icons/ri";
 
 const SignIn = () => {
   return (
@@ -22,7 +22,7 @@ const SignIn = () => {
               <rect width="500" height="382" fill="url(#paint0_linear_7_26)" />
               <mask
                 id="mask0_7_26"
-                style={{ maskType: 'alpha' }}
+                style={{ maskType: "alpha" }}
                 maskUnits="userSpaceOnUse"
                 x="0"
                 y="0"
@@ -97,6 +97,7 @@ const SignIn = () => {
                 width="100"
                 height="50"
                 src="/images/signin/hb-full-logo.svg"
+                alt=""
               />
             </div>
             <div className="absolute mt-[8.7rem] ml-[1.7rem]">
@@ -113,7 +114,7 @@ const SignIn = () => {
 
             <div className="flex absolute justify-between px-7 pt-7 w-full">
               <p className="text-white">
-                <BsArrowLeft className="inline mb-[2px] bold" />{' '}
+                <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
               <Image width={32} height={32} src="/images/hb-logo.svg" alt="" />
@@ -148,8 +149,8 @@ const SignIn = () => {
                       src="/images/signin/check.svg"
                       alt=""
                     />
-                  </span>{' '}
-                  <span className="text-blue-500">Remember</span>{' '}
+                  </span>{" "}
+                  <span className="text-blue-500">Remember</span>{" "}
                 </div>
                 <button>Forget Password</button>
               </div>
