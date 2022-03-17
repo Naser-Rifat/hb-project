@@ -81,8 +81,8 @@ const SignIn = () => {
 
             <div className="absolute mt-[6rem] ml-[1.7rem]">
               <Image
-                width={100}
-                height={50}
+                width={110}
+                height={55}
                 src="/images/signin/hb-full-logo.svg"
                 alt="full-logo"
               />
