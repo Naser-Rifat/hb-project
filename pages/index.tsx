@@ -1,13 +1,11 @@
 /* eslint-disable prettier/prettier */
 
-import SignIn  from './Auth/signin';
+import SignIn from "./signin";
 
 const Index = () => {
   // const router = useRouter();
 
-  return (
-    <SignIn />
-  );
+  return <SignIn />;
 };
 
 export default Index;
