@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+import Image from "next/image";
 import React from "react";
 
 const RutineService = () => {
@@ -15,11 +15,15 @@ const RutineService = () => {
         </div>
 
         <Image
-          className="object-contain absolute  mt-[10%] ml-[10%] w-[90%]"
+          width={50}
+          height={50}
+          // className="object-contain absolute  mt-[10%] ml-[10%] w-[90%]"
           src="/images/rutine-service.svg"
         />
         <Image
-          className="absolute  mt-[50%] w-[50%]"
+          width={50}
+          height={50}
+          // className="absolute  mt-[50%] w-[50%]"
           src="/images/hb-big-logo.svg"
           alt=""
         />
