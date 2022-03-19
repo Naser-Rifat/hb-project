@@ -1,6 +1,5 @@
-import React from "react";
-
 import Image from "next/image";
+import React from "react";
 import { BiUser } from "react-icons/bi";
 import { BsArrowLeft } from "react-icons/bs";
 import { HiOutlineDeviceMobile } from "react-icons/hi";
@@ -201,7 +200,12 @@ const SignUp = () => {
                 <BsArrowLeft className="inline mb-[2px] bold" />{" "}
                 <span className="text-[1em] font-thin"> Back</span>
               </p>
-              <Image width={32} height={32} src="/hb-logo.svg" alt="hb-Logo" />
+              <Image
+                width={32}
+                height={32}
+                src="/images/hb-logo.svg"
+                alt="hb-Logo"
+              />
             </div>
           </div>
 

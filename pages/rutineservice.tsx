@@ -15,10 +15,10 @@ const RutineService = () => {
         </div>
 
         <Image
-          width={50}
-          height={50}
+          width={400}
+          height={500}
           // className="object-contain absolute  mt-[10%] ml-[10%] w-[90%]"
-          src="/images/rutine-service.svg"
+          src="/images/rutineservice/rutineservice.svg"
           alt="serviceImg"
         />
         <Image
