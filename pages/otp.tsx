@@ -114,7 +114,7 @@ const Otp = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute mt-[17.6rem]   w-full bg-white   rounded-t-[35px] ">
+          <div className="absolute mt-[17.6rem] xs:mt-[15.6rem]  w-full bg-white   rounded-t-[35px] ">
             <form className="mt-[1.8em]  text-center">
               <div className=" flex justify-center items-center mx-[.8em] mt-[2rem]">
                 <input
@@ -145,7 +145,7 @@ const Otp = () => {
                 Not received code?
                 <span className=" ml-[.2em] text-blue-400">Resend</span>
               </h3>
-              <p className="text-[.65rem] leading-1">
+              <p className="text-[.65rem] leading-1 xs:mb-[2rem]">
                 Get OTP again in{" "}
                 <span className="text-red-400"> 05:00 Seconds</span>
               </p>

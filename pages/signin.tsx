@@ -115,7 +115,7 @@ const SignIn = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute mt-[17.6rem]   w-full bg-white   rounded-t-[35px] ">
+          <div className="absolute mt-[17.6rem] xs:mt-[15.6rem]  w-full bg-white   rounded-t-[35px] ">
             <form className="mt-[1.8em]  text-center">
               <div className="flex justify-center items-center mx-auto mb-[1.3rem] w-[83%]  h-[3.4rem] bg-[#F0F1FF] rounded-full">
                 <HiOutlineDeviceMobile className=" ml-[1rem]  text-base text-gray-700" />
@@ -147,15 +147,15 @@ const SignIn = () => {
                 <button>Forget Password</button>
               </div>
 
-              <button className="mt-[.5rem] mb-[1.9rem] w-[40%] h-[3.5rem] text-[1em]  font-medium text-white bg-[#406CDA]  rounded-full">
+              <button className="mt-[.5rem] mb-[1rem] w-[40%] h-[3.5rem] text-[1em]  font-medium text-white bg-[#406CDA]  rounded-full">
                 Log in
               </button>
             </form>
             <div className="text-center">
-              <p className="mb-[2.5rem] text-[.9em] font-bold">
+              <p className="mb-[1rem] text-[.9em] font-bold">
                 Or quick continue with
               </p>
-              <div className="flex justify-center items-center mb-[2.5rem]">
+              <div className="flex justify-center items-center mb-[1rem]">
                 <div className="flex justify-center items-center mx-2 w-[2.7rem] h-[2.7rem] text-[1.6em] font-bold  text-white bg-[#3B5999] rounded-full shadow-lg">
                   f
                 </div>
@@ -163,7 +163,7 @@ const SignIn = () => {
                   G
                 </div>
               </div>
-              <button>continue without login</button>
+              <button className="mb-[1rem]">continue without login</button>
             </div>
           </div>
         </div>

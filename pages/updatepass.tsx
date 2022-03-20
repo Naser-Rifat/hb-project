@@ -103,7 +103,7 @@ const UpdatePass = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute mt-[17.6rem]   w-full bg-white   rounded-t-[35px] ">
+          <div className="absolute mt-[17.6rem] xs:mt-[15.6rem]  w-full bg-white   rounded-t-[35px] ">
             <form className="mt-[1.8em]  text-center">
               <div className=" flex justify-center items-center mx-auto mb-[1rem] w-[83%]  h-[3.4rem] bg-gray-100 rounded-full">
                 <Image

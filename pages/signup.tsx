@@ -190,7 +190,7 @@ const SignUp = () => {
               <h1 className="  text-[1.5em] font-medium  text-white">
                 Sign Up
               </h1>
-              <p className="[font-weight:500]  mt-[.4rem] w-[80%] text-[.88em] text-white  ">
+              <p className="[font-weight:500]  mt-[.4rem] w-[80%]  text-[.88em] text-white  ">
                 Sign Up to Healthbondu and amazing thing near around you
               </p>
             </div>
@@ -211,7 +211,7 @@ const SignUp = () => {
 
           {/* sign up input field */}
 
-          <div className="absolute mt-[17.6rem]   w-full bg-white   rounded-t-[35px] ">
+          <div className="absolute mt-[17.6rem] xs:mt-[15.6rem]  w-full bg-white   rounded-t-[35px] ">
             <form className="mt-[1.8em]  text-center">
               <div className="flex justify-center items-center mx-auto mb-[.7rem] w-[83%]  h-[3.4rem] bg-[#F0F1FF] rounded-full">
                 <HiOutlineDeviceMobile className=" ml-[1rem]  text-base text-gray-700" />
