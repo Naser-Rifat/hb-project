@@ -6,7 +6,7 @@ const RutineService = () => {
   return (
     <section>
       <div className="h-full  md:hidden min-w-screen m-0 p-0">
-        <div className="flex justify-between px-[3rem] pt-[2rem] pb-[1em]">
+        <div className="absolute mt-[2rem] flex justify-between px-[3rem] pt-[2rem] pb-[1em]">
           <button className="  text-gray-500">বাংলা</button>
           <button className="  text-gray-500">skip</button>
         </div>
@@ -14,7 +14,7 @@ const RutineService = () => {
           style={{
             backgroundImage: "url('/images/rutineservice/rutineservice.svg')",
           }}
-          className="absolute w-full  bg-no-repeat bg-cover h-[100vh] xs:h-[35rem] bg-white mt-[2rem]"
+          className="absolute w-full  bg-no-repeat bg-cover h-[100vh] xs:h-[35rem] bg-white mt-[5rem]"
         ></div>
 
         <div className="absolute ml-[2.7rem] xs:ml-[2rem] mt-[25rem] xs:mt-[19rem]">
