@@ -6,7 +6,7 @@ import Nav from "../../components/Nav/Nav";
 
 const homepage = () => {
   return (
-    <section className="relative min-w-screen ">
+    <section className="relative min-w-screen hidden md:block ">
       <div className=" mx-auto bannerBackground h-[100vh] ">
         <div className="customContainer ">
           <Header />

@@ -10,7 +10,7 @@ const Banner = () => {
             <h1 className="text-[1.5em] text-white font-sans font-bold">
               Health Bondhu for all your health needs.
             </h1>
-            <p className=" w-[15rem] text-[.5em]  mt-[5px] text-white opacity-40 font-sans text-justify	">
+            <p className=" w-[15rem] text-[.9em]  mt-[5px] text-white opacity-40 font-sans text-justify	">
               Reference site about Lorem Ipsum, giving information on its
               origins, giving information on its origins, m Ipsum, giving giving
               information on its origins, giving information on its origin
