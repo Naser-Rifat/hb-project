@@ -1,24 +1,38 @@
+import Image from "next/image";
 import React from "react";
+import Banner from "../../components/Banner/Banner";
 import Header from "../../components/Header/Header";
 import Nav from "../../components/Nav/Nav";
 
 const homepage = () => {
   return (
-    <div className="xl:container mx-auto">
-      <Header />
-      <Nav />
-      <div className="w-full flex h-80 bg-red-500">
-        <div className="w-full flex flex-col  h-full bg-gray-300  ">
-          <div className="w-full h-full bg-fuchsia-300"> </div>
-          <div className="w-full h-full bg-red-500"> </div>
-          <div className="w-full flex h-full bg-orange-400">
-            <div className="w-full h-full bg-pink-500"></div>
-            <div className="w-full h-full bg-purple-500"></div>
-          </div>
+    <section className="relative min-w-screen ">
+      <div className=" mx-auto bannerBackground h-[100vh] ">
+        <div className="customContainer ">
+          <Header />
+          <hr className="text-normal text-gray-100 " />
+          <Nav />
+          <Banner />
         </div>
-        <div className="w-full h-full bg-blue-300  "></div>
+        {/* <Image
+          // width="1000"
+          // height="100"
+          layout="fill"
+          className="w-full  absolute mt-[15rem] "
+          src="/images/landingpage/banner/layer-2.svg"
+          alt=""
+        />
+        <Image
+          // width="1000"
+          // height="100"
+          layout="fill"
+          className="w-full absolute "
+          src="/images/landingpage/banner/layer-1.svg"
+          alt=""
+        /> */}
       </div>
-    </div>
+      <div></div>
+    </section>
   );
 };
 

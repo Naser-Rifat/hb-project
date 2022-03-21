@@ -5,6 +5,14 @@ html,
   /* background: linear-gradient(140.13deg, #2c62d6 -4.34%, #48b0e0 104.04%); */
 }
 
+.bannerBackground {
+  background: linear-gradient(180deg, #2c62d6 0%, #48b0e0 100%);
+}
+.customContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
 body {
   padding: 0;
   margin: 0;
