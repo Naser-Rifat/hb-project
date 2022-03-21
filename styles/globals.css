@@ -9,7 +9,7 @@ html,
   background: linear-gradient(180deg, #2c62d6 0%, #48b0e0 100%);
 }
 .customContainer {
-  width: 60%;
+  width: 50rem;
   margin: 0 auto;
 }
 
