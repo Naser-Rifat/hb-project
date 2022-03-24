@@ -7,9 +7,13 @@ html,
 
 .bannerBackground {
   background: linear-gradient(180deg, #2c62d6 0%, #48b0e0 100%);
+  height: 37rem;
+}
+.fullbg {
+  background-color: #f7fbff;
 }
 .customContainer {
-  width: 50rem;
+  width: 55rem;
   margin: 0 auto;
 }
 

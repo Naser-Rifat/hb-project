@@ -1,31 +1,31 @@
-import React from "react";
+import React from 'react';
 
 const Nav = () => {
   return (
-    <nav className="w-full h-[3rem] ">
-      <ul className="flex justify-center items-center py-auto">
-        <li className="text-[1em]  font-sans mx-2 mt-[5px] text-white">
-          Home{" "}
+    <nav className=" mx-auto w-[90%]  h-[3rem] ">
+      <ul className="flex justify-center items-center ">
+        <li className="mx-[.5rem]   mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
+          Home{' '}
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Coupon
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Feature Service
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Consultations
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Packages
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Best Deals
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Self checkups
         </li>
-        <li className="text-[1em] font-sans mx-2 mt-[5px] text-white">
+        <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Contact
         </li>
       </ul>

@@ -1,20 +1,23 @@
-import Image from "next/image";
-import React from "react";
-import Banner from "../../components/Banner/Banner";
-import Header from "../../components/Header/Header";
-import Nav from "../../components/Nav/Nav";
+/* eslint-disable prettier/prettier */
 
-const homepage = () => {
+import React from "react";
+import Activity from "../../components/Activites/Activities";
+import Banner from "../../components/Banner/Banner";
+import BestDeals from "../../components/BestDeals/BestDeals";
+import FeatureCoupons from "../../components/FeatureCoupons/FeatureCoupons";
+import FeaturePackages from "../../components/FeaturePackages/FeaturePackages";
+import FeatureService from "../../components/FeatureService/FeatureService";
+import ServicesFeature from "../../components/FeatureService/Section-3/ServicesFeature";
+
+const Homepage = () => {
   return (
-    <section className="relative min-w-screen hidden md:block ">
-      <div className=" mx-auto bannerBackground h-[100vh] ">
-        <div className="customContainer ">
-          <Header />
-          <hr className="text-normal text-gray-100 " />
-          <Nav />
-          <Banner />
-        </div>
-        {/* <Image
+    <section className="bg-gray-100">
+      {/* 
+<div className="hidden md:block relative mx-auto fullbg">
+      <div className=" mx-auto   md:block  min-w-screen"> */}
+
+      <Banner />
+      {/* <Image
           // width="1000"
           // height="100"
           layout="fill"
@@ -30,10 +33,17 @@ const homepage = () => {
           src="/images/landingpage/banner/layer-1.svg"
           alt=""
         /> */}
-      </div>
-      <div></div>
+      {/* </div> */}
+
+      <Activity />
+      {/* // </div> */}
+      <FeatureService />
+      <ServicesFeature />
+      <FeaturePackages />
+      <FeatureCoupons />
+      <BestDeals />
     </section>
   );
 };
 
-export default homepage;
+export default Homepage;

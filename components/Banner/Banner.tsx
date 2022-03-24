@@ -1,51 +1,71 @@
-import Image from "next/image";
+/* eslint-disable prettier/prettier */
 import React from "react";
+
+import Image from "next/image";
+import Header from "../Header/Header";
+import Nav from "../Nav/Nav";
 
 const Banner = () => {
   return (
-    <section className="relative">
-      <div className="w-full flex h-80">
-        <div className="w-full flex flex-col  h-full ">
-          <div className="w-full  mt-[2rem]">
-            <h1 className="text-[1.5em] text-white font-sans font-bold">
-              Health Bondhu for all your health needs.
-            </h1>
-            <p className=" w-[15rem] text-[.9em]  mt-[5px] text-white opacity-40 font-sans text-justify	">
-              Reference site about Lorem Ipsum, giving information on its
-              origins, giving information on its origins, m Ipsum, giving giving
-              information on its origins, giving information on its origin
-            </p>
-          </div>
+    <section className="relative bannerBackground ">
+      <div className="relative 2xl:w-[70rem] customContainer">
+        <Header />
+        <Nav />
+        <div className="flex w-full h-80">
+          <div className="flex flex-col w-full  h-full ">
+            <div className="mt-[3rem]  w-[28rem]">
+              <h1 className="font-sans text-[2.4em] font-bold tracking-wide text-white leading-1	">
+                Health Bondhu for all your health needs.
+              </h1>
+              <p className=" mt-[5px] w-[25.5rem]  font-sans text-[.8em] tracking-wide text-white opacity-50	">
+                Reference site about Lorem Ipsum, giving information on its
+                origins, giving information on its origins, m Ipsum, giving
+                giving information on its origins, giving information on its
+                origin
+              </p>
+            </div>
 
-          <div className="w-full flex  justify-center items-center mt-[2rem]">
-            <div className="w-full h-[4rem] ">
-              <Image
-                width="100"
-                height="50"
-                src="/images/landingpage/banner/booknow.svg"
-                alt=""
-              />
-            </div>
-            <div className="w-full h-[4rem] ">
-              <Image
-                width="100"
-                height="50"
-                className="p-[4.5rem]"
-                src="/images/landingpage/banner/googleplay.svg"
-                alt=""
-              />
+            <div className="flex justify-center  items-center mt-[2rem] w-[15rem]">
+              <div className="w-full h-[4rem] ">
+                <Image
+                  width="100"
+                  height="50"
+                  src="/images/landingpage/banner/booknow.svg"
+                  alt=""
+                />
+              </div>
+              <div className="w-full h-[4rem] ">
+                <Image
+                  width="100"
+                  height="50"
+                  className="p-[4.5rem]"
+                  src="/images/landingpage/banner/googleplay.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="w-full h-full ">
-          <Image
-            width="500"
-            height="500"
-            src="/images/landingpage/banner/iPhone12Pro(Wooden Hands).svg"
-            alt=""
-          />
+          <div className="mt-[1.5rem] w-[37rem] h-full ">
+            <Image
+              width="600"
+              height="600"
+              src="/images/landingpage/banner/iPhone12Pro(Wooden Hands).svg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
+
+      <img
+        className="absolute bottom-0 lg:w-full"
+        src="/images/landingpage/banner/layer-2.svg"
+        alt=""
+      />
+      <img
+        className="absolute bottom-0 lg:w-full"
+        src="/images/landingpage/banner/layer-1.svg"
+        alt=""
+      />
     </section>
   );
 };
