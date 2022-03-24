@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import React from "react";
 import Activity from "../../components/Activites/Activities";
 import Banner from "../../components/Banner/Banner";
