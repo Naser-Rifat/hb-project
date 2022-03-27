@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Section2 = () => {
   return (
-    <section>
+    <section className="pt-10">
       <div
         style={{
           backgroundImage:

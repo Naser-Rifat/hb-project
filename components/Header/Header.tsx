@@ -19,7 +19,7 @@ const Header = () => {
             We’ve just Launched in Borned Find out more
           </p>
 
-           <button className="flex justify-center items-center w-[8.5rem] h-[1.9rem] text-[.75rem] text-white rounded-full border-[1px] border-white">
+          <button className="flex justify-center items-center w-[8.5rem] h-[1.9rem] text-[.75rem] text-white rounded-full border-[1px] border-white">
             <Image
               width="10"
               height="10"
@@ -35,7 +35,8 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <hr className=" mt-[.4rem]    text-[#7296DF] " />
+      
+      <hr className=" mt-[.4rem]  h-[1px] border-[#7296DF]" />
     </div>
   );
 };

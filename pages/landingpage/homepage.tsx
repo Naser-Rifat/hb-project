@@ -5,7 +5,7 @@ import BestDeals from "../../components/BestDeals/BestDeals";
 import FeatureCoupons from "../../components/FeatureCoupons/FeatureCoupons";
 import FeaturePackages from "../../components/FeaturePackages/FeaturePackages";
 import FeatureService from "../../components/FeatureService/FeatureService";
-import ServicesFeature from "../../components/FeatureService/Section-3/ServicesFeature";
+import ServicesFeature from "../../components/ServicesFeature/ServicesFeature";
 
 const Homepage = () => {
   return (

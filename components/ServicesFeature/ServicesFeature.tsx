@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Image from 'next/image';
 
 const ServicesFeature = () => {
@@ -17,7 +16,7 @@ const ServicesFeature = () => {
       }}
       className=" w-full h-full"
     >
-     <main className="py-9  mx-auto  w-[55rem]">
+      <main className="py-9  mx-auto w-[55rem] ">
         <div className="grid grid-cols-12 gap-3">
           <div
             style={{

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Section1 = () => {
   return (
-    <section >
+    <section>
       <div className="pb-[2rem] ">
         <div className="flex justify-between items-center pb-[2rem] w-full h-[2rem] ">
           <h1 className="text-[1.1em] font-semibold">Our Feature Service</h1>

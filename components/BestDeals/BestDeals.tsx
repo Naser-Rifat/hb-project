@@ -1,10 +1,11 @@
-import Image from "next/image";
-import React from "react";
+import React from 'react';
+
+import Image from 'next/image';
 
 const BestDeals = () => {
   return (
     <section className="bg-white">
-      <div className="w-[55rem] mx-auto mb-20 ">
+      <div className="mx-auto  w-[55rem] ">
         <div className="flex justify-between items-center pb-[2rem] w-full h-[2rem] ">
           <h1 className="text-[1.1em] font-semibold">Best Deals for you</h1>
 
@@ -13,10 +14,10 @@ const BestDeals = () => {
           </button>
         </div>
         <div className="grid grid-cols-4 gap-3">
-          <div className="border-2  border-dashed border-[#B2CBFF]	 p-3">
+          <div className="p-3  border-2 border-[#B2CBFF]	 border-dashed">
             <div className="flex justify-between  ">
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="50"
                   height="60"
@@ -25,7 +26,7 @@ const BestDeals = () => {
                 />
               </div>
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="20"
                   height="20"
@@ -35,8 +36,8 @@ const BestDeals = () => {
               </div>
             </div>
             <div>
-              <p className="text-[.9em] w-[8rem] my-[1rem] font-sans font-semibold">
-                {" "}
+              <p className="my-[1rem] w-[8rem] font-sans text-[.9em] font-semibold">
+                {' '}
                 10% OFF Full Body Check + Check Free Report
               </p>
             </div>
@@ -49,10 +50,10 @@ const BestDeals = () => {
               />
             </div>
           </div>
-          <div className="border-2  border-dashed border-[#B2CBFF]	 p-3">
+          <div className="p-3  border-2 border-[#B2CBFF]	 border-dashed">
             <div className="flex justify-between  ">
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="50"
                   height="60"
@@ -61,7 +62,7 @@ const BestDeals = () => {
                 />
               </div>
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="20"
                   height="20"
@@ -71,8 +72,8 @@ const BestDeals = () => {
               </div>
             </div>
             <div>
-              <p className="text-[.9em] w-[8rem] my-[1rem] font-sans font-semibold">
-                {" "}
+              <p className="my-[1rem] w-[8rem] font-sans text-[.9em] font-semibold">
+                {' '}
                 10% OFF Full Body Check + Check Free Report
               </p>
             </div>
@@ -85,10 +86,10 @@ const BestDeals = () => {
               />
             </div>
           </div>
-          <div className="border-2  border-dashed border-[#B2CBFF]	 p-3">
+          <div className="p-3  border-2 border-[#B2CBFF]	 border-dashed">
             <div className="flex justify-between  ">
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="50"
                   height="60"
@@ -97,7 +98,7 @@ const BestDeals = () => {
                 />
               </div>
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="20"
                   height="20"
@@ -107,8 +108,8 @@ const BestDeals = () => {
               </div>
             </div>
             <div>
-              <p className="text-[.9em] w-[8rem] my-[1rem] font-sans font-semibold">
-                {" "}
+              <p className="my-[1rem] w-[8rem] font-sans text-[.9em] font-semibold">
+                {' '}
                 10% OFF Full Body Check + Check Free Report
               </p>
             </div>
@@ -121,10 +122,10 @@ const BestDeals = () => {
               />
             </div>
           </div>
-          <div className="border-2  border-dashed border-[#B2CBFF]	 p-3">
+          <div className="p-3  border-2 border-[#B2CBFF]	 border-dashed">
             <div className="flex justify-between  ">
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="50"
                   height="60"
@@ -133,7 +134,7 @@ const BestDeals = () => {
                 />
               </div>
               <div>
-                {" "}
+                {' '}
                 <Image
                   width="20"
                   height="20"
@@ -143,8 +144,8 @@ const BestDeals = () => {
               </div>
             </div>
             <div>
-              <p className="text-[.9em] w-[8rem] my-[1rem] font-sans font-semibold">
-                {" "}
+              <p className="my-[1rem] w-[8rem] font-sans text-[.9em] font-semibold">
+                {' '}
                 10% OFF Full Body Check + Check Free Report
               </p>
             </div>

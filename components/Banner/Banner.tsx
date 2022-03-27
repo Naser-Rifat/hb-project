@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from "react";
 
 import Image from "next/image";
@@ -7,7 +8,7 @@ import Nav from "../Nav/Nav";
 const Banner = () => {
   return (
     <section className="relative bannerBackground ">
-      <div className="relative 2xl:w-[70rem] customContainer">
+      <div className="relative 2xl:w-[70rem] w-[55rem] mx-auto">
         <Header />
         <Nav />
         <div className="flex w-full h-80">
