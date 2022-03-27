@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Nav = () => {
   return (
     <nav className=" mx-auto w-[90%]  h-[3rem] ">
       <ul className="flex justify-center items-center ">
         <li className="mx-[.5rem]   mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
-          Home{' '}
+          Home{" "}
         </li>
         <li className="mx-[.5rem]  mt-[5px] font-sans text-[.8em] tracking-wide text-white 2xl:text-[1.5em]">
           Coupon
