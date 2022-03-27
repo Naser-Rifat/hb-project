@@ -5,7 +5,10 @@ import BestDeals from "../../components/BestDeals/BestDeals";
 import FeatureCoupons from "../../components/FeatureCoupons/FeatureCoupons";
 import FeaturePackages from "../../components/FeaturePackages/FeaturePackages";
 import FeatureService from "../../components/FeatureService/FeatureService";
+import Footer from "../../components/Footer/Footer";
 import ServicesFeature from "../../components/ServicesFeature/ServicesFeature";
+import Testimonial from "../../components/Testimonial/Testimonial";
+import TodayDealsForYou from "../../components/TodayDealsForYou/TodayDealsForYou";
 
 const Homepage = () => {
   return (
@@ -40,6 +43,9 @@ const Homepage = () => {
       <FeaturePackages />
       <FeatureCoupons />
       <BestDeals />
+      <TodayDealsForYou />
+      <Testimonial />
+      <Footer />
     </section>
   );
 };
